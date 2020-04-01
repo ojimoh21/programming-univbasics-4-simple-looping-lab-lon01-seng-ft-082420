@@ -28,8 +28,7 @@ def return_string_array(array)
   index = 0 
   new_array = []
 while array[index] do
-  element = array[index]
-  element = element.to_s
+  element = array[index].to_s
   new_array.push(element)
   index += 1
 end 
